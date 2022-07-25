@@ -51,5 +51,5 @@ int main() {
         memset(check, false, sizeof(check));
         cout << ans << endl;
     }
-    return 0;
+    return 0; 
 }
