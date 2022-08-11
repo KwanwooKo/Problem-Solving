@@ -13,8 +13,6 @@ using namespace std;
 typedef long long ll;
 class BOJ4195 {
 private:
-    // 행성을 index 로 봐야돼
-    // 인접한 두 점이 무조건 최단경로 중 하나
     int disjoint_sets[100000];
     int set_size[100000];
     map<string, int> name;
